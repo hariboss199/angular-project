@@ -10,11 +10,10 @@ pipeline {
 					}
 				}
 			}
-		stage('Build') {
+	stage('Build') {
             steps {
 		script {
 			sh 'npm run build'
-			sh 'npm update'
             		}
 				}
 			}
