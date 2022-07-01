@@ -3,10 +3,10 @@ pipeline {
     tools { nodejs "Angular Project" }
 
     stages {
-        stage('NPM Install') {
+        stage('npm Install') {
             steps {
                 script {
-					sh 'npm install --verbose -d'
+			sh 'npm install --verbose -d'
 					}
 				}
 			}
