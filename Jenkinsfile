@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools { nodejs "Angular Project" }
+    tools { nodejs "angular-pro" }
 
     stages {
         stage('npm Install') {
