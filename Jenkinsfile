@@ -1,6 +1,6 @@
 pipeline {
     agent any
-	 tools { nodejs "Angular Project" }
+	 tools { nodejs 'node8.2.1' }
 
 
     stages {
