@@ -29,7 +29,7 @@ pipeline {
                 cd $WORKSPACE/dist/project/
 				aws s3 rm s3://$BUCKET_NAME  --recursive
 				aws s3 cp . s3://$BUCKET_NAME --recursive
-                 "aws s3 cp dist/* s3://angu-local"
+                
 				 '''
 				}	
 			}
